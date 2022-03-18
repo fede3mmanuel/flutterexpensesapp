@@ -79,8 +79,7 @@ class MyHomePage extends StatelessWidget {
                       Text(
                         tx.title,
                         style: TextStyle(
-                          color: Colors.purple,
-                          fontSize: 20,
+                          fontSize: 16,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -88,7 +87,6 @@ class MyHomePage extends StatelessWidget {
                         tx.date.toString(),
                         style: TextStyle(
                           color: Colors.grey,
-                          fontSize: 20,
                         ),
                       ),
                     ],
